@@ -1,0 +1,262 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  background: #ffffff;
+}
+.component1 {
+  width: 375px;
+  height: 812px;
+  display: block;
+  flex-shrink: 0;
+}
+.rectangle {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background: rgba(255, 255, 255, 1);
+}
+.statusBar {
+  width: 100%;
+  height: 5.41%;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.connections {
+  width: 68px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  top: 15px;
+  right: 14px;
+}
+.battery {
+  width: 25px;
+  height: 12px;
+  display: block;
+  position: absolute;
+  top: 2px;
+  right: 0px;
+}
+.border {
+  mix-blend-mode: normal;
+  opacity: 0.349;
+  transform: translate(0px, 0.333px);
+  width: 88%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border-radius: 2.666px;
+}
+.svg__tjgNt {
+  position: absolute;
+  object-fit: cover;
+  width: 2px;
+  height: 4px;
+  color: #000;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  display: block;
+  top: 33.33%;
+  left: 92%;
+}
+.capacity {
+  transform: translate(0px, 0.3330000000000002px);
+  width: 72%;
+  height: 66.66%;
+  display: block;
+  position: absolute;
+  top: 16.66%;
+  left: 8%;
+  border-radius: 1.333px;
+  background: rgba(0, 0, 0, 1);
+}
+.svg__fRaZm {
+  position: absolute;
+  object-fit: cover;
+  width: 21px;
+  height: 15px;
+  color: #000;
+  display: block;
+  top: 6.25%;
+  left: 29.41%;
+}
+.svg__ejNww {
+  position: absolute;
+  object-fit: cover;
+  width: 18px;
+  height: 12px;
+  color: #000;
+  display: block;
+  top: 2px;
+  right: 50px;
+}
+.time {
+  width: 56px;
+  height: 23px;
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 21px;
+}
+.time2 {
+  display: block;
+  font-size: 15px;
+  text-align: center;
+  font-family: SF Pro Text;
+  font-weight: 600;
+  letter-spacing: -0.334px;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 6px;
+  left: 0px;
+  right: 2px;
+  transform: translate(0.333px, 0px);
+}
+.register {
+  width: 39.46%;
+  height: 4.92%;
+  display: block;
+  position: absolute;
+  top: 12.8%;
+  left: 4.26%;
+}
+.box___4KSgn {
+  display: block;
+  font-size: 36px;
+  font-family: Comfortaa;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.component {
+  width: 91.46%;
+  height: 6.4%;
+  display: block;
+  position: absolute;
+  top: 21.67%;
+  left: 4.26%;
+}
+.rectangle2 {
+  box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 1);
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 486.54%;
+  left: 1px;
+  background: rgba(255, 255, 255, 1);
+}
+.box__laVvk {
+  display: block;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 32.69%;
+  left: 4.95%;
+}
+.component2 {
+  width: 91.46%;
+  height: 6.4%;
+  display: block;
+  position: absolute;
+  top: 30.04%;
+  left: 4.26%;
+}
+.rectangle3 {
+  box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 1);
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background: rgba(255, 255, 255, 1);
+}
+.box__qTf3B {
+  display: block;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 32.69%;
+  left: 4.95%;
+}
+.button {
+  width: 91.46%;
+  height: 6.4%;
+  display: block;
+  position: absolute;
+  top: 38.42%;
+  left: 4.26%;
+}
+.rectangle4 {
+  box-shadow: inset 0px 0px 0px 2px rgba(0, 0, 0, 1);
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 1);
+}
+.box__pvoMg {
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 36.53%;
+  left: 44.6%;
+  transform: translate(0.28700000000000614px, 0px);
+}
+.keyboard {
+  width: 100%;
+  height: 35.83%;
+  display: block;
+  position: absolute;
+  top: 64.16%;
+  left: 0%;
+}
+.svg___6MTpA {
+  position: absolute;
+  object-fit: cover;
+  width: 13px;
+  height: 12px;
+  color: #000;
+  display: block;
+  transform-origin: top left;
+  transform: scale(1.000000499999875, 0.999999500000375)
+    rotate(-0.057295760416576934deg) skew(-0.05729570311883569deg, 0deg);
+  top: 60px;
+  left: 16px;
+}

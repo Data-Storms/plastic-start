@@ -1,0 +1,104 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "kqxfhDjZpqd51BR3p2izvQ",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "2tWZkb00RRk9",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "kqxfhDjZpqd51BR3p2izvQ",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "MQUxPkPLn2l",
+          "name": "DictationIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Dictation.tsx"
+        },
+        {
+          "id": "zejz5FvJZmP",
+          "name": "EmojiIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Emoji.tsx"
+        },
+        {
+          "id": "sXon3Zlx4Rx",
+          "name": "BackspaceIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Backspace.tsx"
+        },
+        {
+          "id": "cVqOPaR4VMQ",
+          "name": "UnionIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Union.tsx"
+        },
+        {
+          "id": "eZ_LDE-acCN",
+          "name": "CapIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Cap.tsx"
+        },
+        {
+          "id": "xh39PL2Dw1T",
+          "name": "WifiIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Wifi.tsx"
+        },
+        {
+          "id": "9nXFNGx_7Hg",
+          "name": "CellularConnectionIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__CellularConnection.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "PbYHOpmCzX2",
+          "name": "Shift",
+          "filePath": "plasmic/blank_project/images/shift.svg"
+        }
+      ],
+      "codeComponents": [],
+      "projectApiToken": "6YO7WzzTniZ25fT8v3vnqP2ydf0e4p4p6FwKBEgEcg5hsfENwpLiY3KfzhvXqDXSDtVXmyygAleBUzDlXpm8uA"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "we4qStUSaqQP",
+        "name": "Screen",
+        "projectId": "kqxfhDjZpqd51BR3p2izvQ",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.157",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.157/dist/plasmic.schema.json"
+}
